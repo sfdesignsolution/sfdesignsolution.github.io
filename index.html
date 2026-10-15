@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ms">
 <head>
   <meta charset="UTF-8" />
@@ -111,8 +111,8 @@
       <div class="container">
         <div class="feature">
           <div class="feature__media feature__media--stack reveal">
-            <img src="images/project-01.jpg" alt="Projek kitchen cabinet SF Design Solution" loading="lazy" width="600" height="800" />
-            <img src="images/project-03.jpg" alt="Projek wardrobe moden" loading="lazy" width="600" height="800" />
+            <img src="images/project-01.jpg" data-full="images/project-01.jpg" alt="Projek kitchen cabinet SF Design Solution" loading="lazy" width="600" height="800" />
+            <img src="images/project-03.jpg" data-full="images/project-03.jpg" alt="Projek wardrobe moden" loading="lazy" width="600" height="800" />
           </div>
           <div class="reveal" data-delay="1">
             <span class="eyebrow">Kenapa SF Design Solution</span>
@@ -266,32 +266,32 @@
         </div>
         <div class="gallery">
           <figure class="gallery__item reveal">
-            <img src="images/project-02.jpg" alt="Projek interior moden SF Design Solution 1" loading="lazy" width="800" height="600" />
+            <img src="images/project-02.jpg" data-full="images/project-02.jpg" alt="Projek interior moden SF Design Solution 1" loading="lazy" width="800" height="600" />
             <span class="gallery__expand"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span>
             <figcaption class="gallery__cap"><strong>Residential Project</strong><span>Shah Alam</span></figcaption>
           </figure>
           <figure class="gallery__item reveal" data-delay="1">
-            <img src="images/project-05.jpg" alt="Projek interior moden SF Design Solution 2" loading="lazy" width="800" height="600" />
+            <img src="images/project-05.jpg" data-full="images/project-05.jpg" alt="Projek interior moden SF Design Solution 2" loading="lazy" width="800" height="600" />
             <span class="gallery__expand"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span>
             <figcaption class="gallery__cap"><strong>Kitchen Cabinetry</strong><span>Klang</span></figcaption>
           </figure>
           <figure class="gallery__item reveal" data-delay="2">
-            <img src="images/project-07.jpg" alt="Projek interior moden SF Design Solution 3" loading="lazy" width="800" height="600" />
+            <img src="images/project-07.jpg" data-full="images/project-07.jpg" alt="Projek interior moden SF Design Solution 3" loading="lazy" width="800" height="600" />
             <span class="gallery__expand"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span>
             <figcaption class="gallery__cap"><strong>Wardrobe &amp; Storage</strong><span>Petaling Jaya</span></figcaption>
           </figure>
           <figure class="gallery__item reveal">
-            <img src="images/project-09.jpg" alt="Projek interior moden SF Design Solution 4" loading="lazy" width="800" height="600" />
+            <img src="images/project-09.jpg" data-full="images/project-09.jpg" alt="Projek interior moden SF Design Solution 4" loading="lazy" width="800" height="600" />
             <span class="gallery__expand"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span>
             <figcaption class="gallery__cap"><strong>Living &amp; Built-in</strong><span>Kuala Lumpur</span></figcaption>
           </figure>
           <figure class="gallery__item reveal" data-delay="1">
-            <img src="images/project-11.jpg" alt="Projek interior moden SF Design Solution 5" loading="lazy" width="800" height="600" />
+            <img src="images/project-11.jpg" data-full="images/project-11.jpg" alt="Projek interior moden SF Design Solution 5" loading="lazy" width="800" height="600" />
             <span class="gallery__expand"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span>
             <figcaption class="gallery__cap"><strong>Interior Renovation</strong><span>Selangor</span></figcaption>
           </figure>
           <figure class="gallery__item reveal" data-delay="2">
-            <img src="images/project-12.jpg" alt="Projek interior moden SF Design Solution 6" loading="lazy" width="800" height="600" />
+            <img src="images/project-12.jpg" data-full="images/project-12.jpg" alt="Projek interior moden SF Design Solution 6" loading="lazy" width="800" height="600" />
             <span class="gallery__expand"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></span>
             <figcaption class="gallery__cap"><strong>Custom Joinery</strong><span>Shah Alam</span></figcaption>
           </figure>
@@ -432,6 +432,13 @@
       </div>
     </div>
   </footer>
+
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-label="Pratonton gambar">
+    <button class="lightbox__close" type="button" aria-label="Tutup"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Sebelum"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+    <img src="" alt="" />
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Selepas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+  </div>
 
   <a class="wa-float" href="https://wa.me/60197630972" target="_blank" rel="noopener" aria-label="WhatsApp kami">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3.1.8.8-3-.2-.3A8 8 0 1 1 12 20Zm4.5-5.9c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7 1c-.2.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.1.1-.1 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.7.3-.7.7-.9 1.6-.6 2.6.5 1.7 1.7 3.1 3.4 4 .6.3 1.3.5 2 .5.7 0 1.3-.3 1.8-.8.2-.3.4-.6.4-.9 0-.1 0-.2-.1-.3Z"/></svg>
